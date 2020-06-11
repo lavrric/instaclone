@@ -1,9 +1,32 @@
 .gallery {
   width: 100%;
   border-top: 1px solid rgba(var(--b38, 219, 219, 219), 1);
-  padding: 10px 0;
-  margin: 10px auto;
+  margin: 0 auto 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  .gallery-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .option {
+      height: 55px;
+      margin: 0 20px;
+      padding-top: 1px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      line-height: 50px;
+      text-align: center;
+      opacity: 0.5;
+      cursor: pointer;
+
+      &.selected {
+        opacity: 1;
+        border-top: 1px solid black;
+        padding-top: 0px;
+      }
+    }
+  }
 }

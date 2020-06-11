@@ -15,7 +15,7 @@ const InfoBlock = () => (
       <div className="title">ebsintegrator</div>
       <div className="pieces">
         <div className="piece">
-          <span style={{ fontWeight: "500" }}>9</span> posts
+          <span style={{ fontWeight: "500" }}>7</span> posts
         </div>
         <div className="piece">
           <span style={{ fontWeight: "500" }}>138</span> followers
@@ -29,7 +29,7 @@ const InfoBlock = () => (
         <span style={{ fontWeight: "500", color: "black" }}>
           lavrric, nibabin, andreeanicoara1, cutiiee3.14
         </span>{" "}
-        +16 more
+        +12 more
       </div>
     </div>
   </div>

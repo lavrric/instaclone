@@ -4,16 +4,13 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1005;
   padding: 0 100px;
   width: 100vw;
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  .title {
-    font-size: 2rem;
-  }
 
   .options {
     width: 50%;
@@ -22,6 +19,16 @@
 
     .option {
       margin: 4px 10px;
+      cursor: pointer;
+
+      .background-image {
+        width: 22px;
+        height: 22px;
+        border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+        border-radius: 11px;
+        background-size: cover;
+        background-position: center;
+      }
     }
   }
 }
