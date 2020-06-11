@@ -1,0 +1,35 @@
+.image-preview {
+  min-width: 26%;
+  max-width: 31.5%;
+  height: 269px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+
+  .background-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 1000;
+    opacity: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover > .overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+}
